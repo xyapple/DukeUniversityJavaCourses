@@ -1,4 +1,9 @@
-import edu.duke.*;
+package weekOne;
+
+import edu.duke.FileResource;
+import edu.duke.Point;
+import edu.duke.Shape;
+
 
 public class PerimeterRunner {
     public double getPerimeter (Shape s) {

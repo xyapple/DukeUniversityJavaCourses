@@ -1,10 +1,10 @@
-/**
+package weekOne; /**
  * For a given number, determines whether or not it is prime.
  *
  * @author Duke Software Team 
  */
-import edu.duke.*;
-import java.io.*;
+
+import edu.duke.RangeResource;
 
 public class PrimeFinder {
 	public boolean isPrime(int num) {
