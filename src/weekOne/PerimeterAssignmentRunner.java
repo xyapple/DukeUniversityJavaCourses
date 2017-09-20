@@ -33,7 +33,11 @@ public class PerimeterAssignmentRunner {
         FileResource fr = new FileResource();
         Shape s = new Shape(fr);
         double length = getPerimeter(s);
+        double aveLength = getAverageLength(s);
+        double longestSide = getLargestSide(s);
         System.out.println("perimeter = " + length);
+        System.out.println("average length of a side = "+aveLength);
+        System.out.println("longest side in the shape = "+longestSide);
     }
 
     public int getNumPoints (Shape s) {
