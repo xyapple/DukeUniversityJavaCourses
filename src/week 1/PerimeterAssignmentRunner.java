@@ -3,7 +3,7 @@ import java.io.File;
 
 public class PerimeterAssignmentRunner {
     public int getNumPoints (Shape s) {
-        
+
         return 0;
     }
 
